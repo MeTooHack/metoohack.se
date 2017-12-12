@@ -1,0 +1,103 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+}
+
+a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+section {
+  padding: 2.5em 2em 5em;
+}
+
+section.start {
+  background: #000 url(../img/bg_tall.jpg) no-repeat top center;
+  background-size: 300% auto;
+}
+
+section.faq {
+  background-color: #6F5B8F;
+}
+
+section.prehack {
+  background-color: #000;
+  color: #fff;
+}
+
+section.registration {
+  background-color: #A2AFD3;
+}
+
+section.sponsors {
+  background-color: #E5E6EA;
+  color: #333;
+}
+
+section.sponsors h1.title {
+  color: #333;
+  text-shadow: none;
+}
+
+section.sponsors .columns {
+  align-items: center;
+}
+
+section.contact {
+  background-color: #B18284;
+}
+
+.section p {
+    margin: 0 auto 2em;
+    max-width: 540px;
+}
+
+.footer {
+  background-color: #000;
+}
+
+.footer img {
+  width: 200px;
+}
+
+h1.title {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 3rem;
+  color: #fff;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+}
+
+h3 {
+  margin-bottom: 0.5em;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.usp-title {
+  text-transform: uppercase;
+}
+.usp-content {
+  font-size: 2em;
+  line-height: 1.2;
+}
+
+#scroll-to-faq {
+  display: none
+}
+
+.registration-submit {
+  margin-top: 2em;
+}
+
+.label { color: #fff }
+
+@media only screen and (min-width: 35em) {
+  section.start {
+    background-size: 100% auto;
+  }
+  #scroll-to-faq {
+    display: inline-flex;
+}
