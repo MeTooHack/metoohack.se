@@ -37,6 +37,10 @@ section.sponsors {
   color: #333;
 }
 
+.sponsor-image {
+  max-width: 270px;
+}
+
 section.sponsors h1.title {
   color: #333;
   text-shadow: none;
