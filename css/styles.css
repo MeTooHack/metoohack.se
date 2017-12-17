@@ -27,6 +27,9 @@ section.prehack {
   background-color: #000;
   color: #fff;
 }
+section.prehack .subtitle {
+  color: #fff;
+}
 
 section.registration {
   background-color: #A2AFD3;
