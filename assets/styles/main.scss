@@ -1,7 +1,11 @@
+@import "~bulma/sass/utilities/initial-variables";
+$text: $white;
+@import '~bulma';
+
+
 body {
   font-family: 'Lato', sans-serif;
   font-size: 18px;
-  color: #fff;
   text-align: center;
 }
 
@@ -15,7 +19,7 @@ section {
 }
 
 section.start {
-  background: #000 url(../img/bg_tall.jpg) no-repeat top center;
+  background: #000 url(~/assets/img/bg_tall.jpg) no-repeat top center;
   background-size: 300% auto;
 }
 
@@ -107,4 +111,5 @@ h3 {
   }
   #scroll-to-faq {
     display: inline-flex;
+  }
 }
