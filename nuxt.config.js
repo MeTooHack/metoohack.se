@@ -24,6 +24,7 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { property:'og:type', content:'website' },
       { property:'og:title', content:'#MeToo Hack - Göteborg 3 Feb' },
       { property:'og:description', content:'Shaken (and deeply frustrated) by the #MeToo movement, as digital creators we have decided to join forces and take action. In a one day hack 10 teams will prototype creative solutions to the underlying problems shown by #MeToo.' },
       { property:'og:image', content:'https://metoohack.se/img/og_image_wide.png' },
