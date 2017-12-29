@@ -1,5 +1,5 @@
 <template>
-  <form v-on:submit.prevent="onSubmit" name="ideas" netlify-honeypot="honeypot" method="POST" netlify>
+  <form v-on:submit.prevent="onSubmit">
     <input name="honeypot" v-model="honeypot" class="is-hidden" />
 
     <idea-input name="title" v-validate="'required'" placeholder="Your idea title" v-model="title" icon="fa-lightbulb-o" />
