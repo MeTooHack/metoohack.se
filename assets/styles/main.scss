@@ -16,6 +16,26 @@ a {
 
 section {
   padding: 2.5em 2em 5em;
+
+  &.sponsors,
+  &.ideas {
+    background-color: #E5E6EA;
+    color: #333;
+
+    h1.title {
+      color: #333;
+      text-shadow: none;
+    }
+
+    .label {
+      color: #333;
+      text-align: left;
+    }
+
+    .help {
+      text-align: left;
+    }
+  }
 }
 
 section.start {
@@ -39,18 +59,8 @@ section.registration {
   background-color: #A2AFD3;
 }
 
-section.sponsors {
-  background-color: #E5E6EA;
-  color: #333;
-}
-
 .sponsor-image {
   max-width: 270px;
-}
-
-section.sponsors h1.title {
-  color: #333;
-  text-shadow: none;
 }
 
 section.sponsors .columns {
