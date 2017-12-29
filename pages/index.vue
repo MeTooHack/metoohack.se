@@ -23,7 +23,7 @@
             </div>
         </div>
         <p class="is-size-5">Shaken (and deeply frustrated) by the #MeToo movement, as digital creators we have decided to join forces and take action.<br>
-                In a one day hack 10 teams will prototype creative solutions to the underlying problems shown by #MeToo.</p>
+                In a one day hack teams will prototype creative solutions to the underlying problems shown by #MeToo.</p>
         <div class="columns is-centered">
             <div class="column is-5">
               <newsletter-signup />
@@ -45,25 +45,25 @@
         <div class="container">
             <h1 class="title">Questions &amp; Answers</h1>
             <h3>What is the "#MeToo movement"</h3>
-            <p class="answer">The hashtag #MeToo has shaken our society showing that systematic sexual harassments and assaults are everywhere. Subsequent movements like #deadline, #tystnadtagning, #medvilkenrätt (and many more) shows that it's present in almost any part of our society.</p>
+            <p class="answer">The hashtag #MeToo has shaken our society showing that systematic sexual harassments and assaults are everywhere. Subsequent movements like #deadline, #tystnadtagning, #medvilkenrätt, #teknisktfel (and many more) shows that it's present in almost every part of our society.</p>
             <h3>What is #MeToo Hack?</h3>
-            <p class="answer">A one day event where 10 teams of people prototypes and builds digital products that in some way could make a difference in the area of sexual abuse and harassment and overall sexual integrity.</p>
+            <p class="answer">A one day event where teams of people prototypes, builds and ideates around digital products that in some way could make a difference in the area of sexual abuse and harassment and overall sexual integrity.</p>
             <h3>Isn't hacking illegal?</h3>
-            <p class="answer">Hacking is here by no means referring to the illegal art of penetrating computer systems :). By "hacking" we mean thinking outside the box, rapidly prototyping creative solutions (that might not always be production grade).</p>
+            <p class="answer">Hacking is here by no means referring to the illegal art of penetrating computer systems :). By "hacking" we mean thinking outside the box, rapidly prototyping creative solutions and ideas too good (or crazy) not to spend a day to try out!</p>
             <h3>Who can participate?</h3>
-            <p class="answer">#MeToo Hack will be limited to 10 teams of 5 people each. Each team should be capably of creating a digital product (hint: you probably need programmers) but who is in the team is up to you. Copywriters, lawyers, designers, social workers, sceintists, you name it!</p>
+            <p class="answer">Anyone with a passion to make a difference in this field! Most teams will build digital products but not being a programmer is NOT a reason not to participate. #MeToo Hack will be limited to 15-20 teams (depending on team size), and teams should not be more than 5 people. Who is in the team however is up to you! Copywriters, lawyers, designers, social workers, sceintists, you name it!</p>
             <h3>Is this a competition?</h3>
             <p class="answer">Very much so, but the teams are not competing against each others, we're fighting norms and social constructs that every day leads to more people taken advantage of.</p>
             <h3>I don't have a team</h3>
-            <p class="answer">No worries! Just sign up, stating what you can contribute with and we'll try our best to set you up with a team looking for members</p>
+            <p class="answer">No worries! Just sign up, stating what you can contribute with and we'll try our best to set you up with a team looking for members.</p>
             <h3>How do I register?</h3>
-            <p class="answer">At the registration section below</p>
+            <p class="answer">At the registration section below.</p>
             <h3>Will there be food and drinks?</h3>
-            <p class="answer">Yes, this will be a fully sponsored event, including food and drinks during the day (thank you sponsors)</p>
+            <p class="answer">Yes, this will be a fully sponsored event, including food and drinks during the day (thank you sponsors).</p>
             <h3>What do I need to bring?</h3>
             <p class="answer">Bring whatever you need to get to work, a computer, post-its, sharpies, drawing tablets, vegan candy...</p>
             <h3>I don't have an awesome idea yet!</h3>
-            <p class="answer">Experts in the field of gender and gender based violence will assist the teams. </p>
+            <p class="answer">Experts in the field of gender and gender based violence will assist the teams.</p>
         </div>
     </section>
 
@@ -79,7 +79,7 @@
     <section class="section registration is-medium">
         <div class="container">
             <h1 class="title">Registration</h1>
-            <p>Each team should be 3-5 people, fully capable of creating a prototype of a digital product or service. Register your entire team, or sign up as individuals to have us put together teams. And since we're all working for the public good, maybe one team full of designers will join a team full of programmers to work on two products together?</p>
+            <p>Each team should be 3-5 people. Register your entire team, or sign up as individuals to join (or form) teams later on. And since we're all working for the public good, maybe one team full of designers will join a team full of programmers to work on two products together?</p>
             <div class="message is-info">
                 <div class="message-body">Yikes! &#x1F605; Registrating will from now on put you on the waiting list.</div>
             </div>
