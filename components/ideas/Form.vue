@@ -29,7 +29,7 @@
       <div class="message-body">Something went wrong, try again or email us at <a href="mailto:ideas@metoohack.se">staff@metoohack.se</a></div>
     </article>
     <div class="control has-text-centered">
-      <button class="button is-primary is-large" :disabled="errors.items.length > 0">
+      <button class="button is-primary is-large" :class="{'is-loading': isLoading}" :disabled="errors.items.length > 0">
         <span class="icon">
           <i class="fa fa-paper-plane"></i>
         </span>
