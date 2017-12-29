@@ -1,0 +1,15 @@
+<!-- A little help for the Netlify post-processing bots -->
+<form name="registration-individual" netlify netlify-honeypot="bot-field" hidden>
+    <input type="text" name="message" />
+    <input type="text" name="name" />
+    <input type="email" name="email" />
+    <input type="text" name="proffession" />
+    <input type="text" name="food" />
+</form>
+<form name="registration-team" netlify netlify-honeypot="bot-field" hidden>
+    <input type="text" name="message" />
+    <input type="text" name="name[]" />
+    <input type="email" name="email[]" />
+    <input type="text" name="proffession[]" />
+    <input type="text" name="food[]" />
+</form>
