@@ -98,6 +98,7 @@
                 <div class="column is-4"><a href="https://skyltmax.se/" target="_blank"><img src="~/assets/img/skyltmax_se.svg" class="sponsor-image" alt="Skyltmax" /></a></div>
                 <div class="column is-4"><a href="https://evolvetechnology.se" target="_blank"><img src="~/assets/img/evolve.svg" class="sponsor-image" alt="Evolve Technology" /></a></div>
             </div>
+            <p>Interested in sponsoring #MeToo Hack? Contact us by email: <a href="mailto:spons@metoohack.se">spons@metoohack.se</a>. Also consider "donating" an idea using the form above!</p>
         </div>
     </section>
 
@@ -106,6 +107,7 @@
             <h1 class="title">Contact</h1>
             <p>There are a lot of people involved in making this happen but the core team consists of Rebecka G, Joakim G, Erik E, Caroline K <br>and Piérre R.</p>
             <p>To get in touch with us, please drop an email to <a href="mailto:staff@metoohack.se">staff@metoohack.se</a></p>
+            <p>Members of the media are invited to contact us by email: <a href="mailto:press@metoohack.se">press@metoohack.se</a>. Please let us know if you're working on a deadline. We will respond as quickly as possible.</p>
         </div>
     </section>
 
