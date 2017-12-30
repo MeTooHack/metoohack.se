@@ -1,7 +1,6 @@
 <template>
   <main>
     <section class="section start hero is-fullheight">
-        <h1 class="title">#MeToo Hack</h1>
         <div class="level">
             <div class="level-item has-text-centered">
                 <div>
@@ -28,16 +27,6 @@
             <div class="column is-5">
               <newsletter-signup />
             </div>
-        </div>
-        <div class="buttons is-centered">
-          <scroll-button selector=".section.faq .title" class="is-info">
-            <span class="icon"><i class="fa fa-info" aria-hidden="true"></i></span>
-            <span>More info</span>
-          </scroll-button>
-          <scroll-button selector=".section.registration .title" class="is-primary">
-            <span class="icon"><i class="fa fa-user-plus" aria-hidden="true"></i></span>
-            <span>To Registration</span>
-          </scroll-button>
         </div>
     </section>
 

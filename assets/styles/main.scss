@@ -31,7 +31,7 @@ section {
       color: #333;
       text-align: left;
     }
-    
+
     a {
       color: #333;
     }
@@ -45,6 +45,8 @@ section {
 section.start {
   background: #000 url(~/assets/img/bg_tall.jpg) no-repeat top center;
   background-size: 300% auto;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 section.faq {
