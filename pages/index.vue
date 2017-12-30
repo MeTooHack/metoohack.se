@@ -41,6 +41,18 @@
         </div>
     </section>
 
+    <section class="section ideas is-medium">
+      <div class="container">
+        <h1 class="title">Submit an idea!</h1>
+        <div class="columns is-centered">
+          <div class="column is-5">
+            <p>Probably the biggest challenge of #MeToo Hack is to find and pursue ideas that can really make a difference. And here we need your help! In the spirit of collaboration and open source we will make all ideas (after review) publicly available.</p>
+            <ideas-form />
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="section faq is-medium">
         <div class="container">
             <h1 class="title">Questions &amp; Answers</h1>
@@ -122,9 +134,11 @@
 import RegistrationForm from '~/components/registrations/Form.vue'
 import NewsletterSignup from '~/components/newsletter/Signup.vue'
 import ScrollButton from '~/components/ScrollButton.vue'
+import IdeasForm from '~/components/ideas/Form.vue'
 
 export default {
   components: {
+    IdeasForm,
     NewsletterSignup,
     RegistrationForm,
     ScrollButton,
