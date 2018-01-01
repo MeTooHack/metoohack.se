@@ -77,7 +77,7 @@ section.contact {
   background-color: #B18284;
 }
 
-.section p {
+p {
     margin: 0 auto 2em;
     max-width: 540px;
 }
@@ -128,4 +128,14 @@ h3 {
   #scroll-to-faq {
     display: inline-flex;
   }
+}
+
+
+/* hero */
+.hero-title {
+  margin: 2em auto 1em;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 3rem;
+  color: #fff;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
 }

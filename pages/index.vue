@@ -1,6 +1,9 @@
 <template>
   <main>
     <section class="section start hero is-fullheight">
+        <p class="hero-title">
+          <span class="hero-logo">#MeToo Hack</span>
+        </p>
         <div class="level">
             <div class="level-item has-text-centered">
                 <div>
