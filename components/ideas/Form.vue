@@ -17,7 +17,7 @@
       <div class="control">
         <label class="checkbox">
           <input type="checkbox" name="consent" v-validate="'required'">
-          I allow that the idea to be published publicly
+          I allow that the idea is published publicly
         </label>
       </div>
       <span v-show="errors.has('consent')" class="help is-danger">{{ errors.first('consent') }}</span>
