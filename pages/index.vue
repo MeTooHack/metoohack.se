@@ -125,7 +125,6 @@
 <script>
 import RegistrationForm from '~/components/registrations/Form.vue'
 import NewsletterSignup from '~/components/newsletter/Signup.vue'
-import ScrollButton from '~/components/ScrollButton.vue'
 import IdeasForm from '~/components/ideas/Form.vue'
 
 export default {
@@ -133,7 +132,6 @@ export default {
     IdeasForm,
     NewsletterSignup,
     RegistrationForm,
-    ScrollButton,
   }
 }
 </script>
