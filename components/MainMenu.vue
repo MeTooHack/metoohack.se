@@ -107,6 +107,7 @@ export default {
   max-height: 1px;
   overflow: hidden;
   transition: 250ms all ease-out;
+  padding-bottom: 0.5em;
 }
 .nav-menu.is-active {
   max-height: 500px;
@@ -121,6 +122,11 @@ export default {
 
 .navbar-item {
   color: white;
+  text-align: left;
+}
+.nav-menu .navbar-item {
+  padding: 0.75em 1em;
+  display: block;
 }
 .navbar-item:hover {
   color: black;
@@ -151,6 +157,7 @@ a {
 
   .nav-menu {
     max-height: none;
+    padding-right: 0.5em;
   }
 
   .navbar-start {
@@ -180,6 +187,7 @@ a {
   .navbar-item {
     align-items: center;
     display: flex;
+    text-align: center;
   }
 }
 
