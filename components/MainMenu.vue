@@ -3,7 +3,7 @@
     <div class="container">
       <nav class="nav" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-          <a class="navbar-item" href="https://bulma.io">
+          <a class="navbar-item" href="/">
             <span class="logo">#MeToo Hack</span>
           </a>
           <button class="button navbar-burger" v-on:click="navToggle" data-target="mainNavMenu">
@@ -143,7 +143,7 @@ a {
 }
 
 @media screen and (min-width: 768px) {
-  
+
   .nav {
     align-items: stretch;
     display: flex;
