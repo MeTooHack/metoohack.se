@@ -6,71 +6,36 @@
           <a class="navbar-item" href="/">
             <span class="logo">#MeToo Hack</span>
           </a>
-          <button class="button navbar-burger" v-on:click="navToggle" data-target="mainNavMenu">
+          <button class="button navbar-burger" v-on:click="dropdownVisible = !dropdownVisible">
             <span></span>
             <span></span>
             <span></span>
           </button>
         </div>
 
-        <div class="nav-menu" id="mainNavMenu">
+        <div class="nav-menu" :class="{'is-active': dropdownVisible}">
           <div class="navbar-start">
           </div>
           <div class="navbar-end">
-          <a class="navbar-item">
-            <span class="icon"><i class="fa fa-calendar"></i></span>
-            <span class="">Events</span>
-          </a>
-          <a class="navbar-item">
+          <a v-on:click="onClick('.section.ideas')" class="navbar-item">
             <span class="icon"><i class="fa fa-lightbulb-o"></i></span>
             <span class="">Ideas</span>
           </a>
-          <a class="navbar-item">
+          <a v-on:click="onClick('.section.faq')" class="navbar-item">
             <span class="icon"><i class="fa fa-question"></i></span>
             <span class="">More info</span>
+          </a>
+          <a v-on:click="onClick('.section.registration')" class="navbar-item">
+            <span class="icon"><i class="fa fa-user-plus"></i></span>
+            <span class="">Registration</span>
+          </a>
+          <a v-on:click="onClick('.section.contact')" class="navbar-item">
+            <span class="icon"><i class="fa fa-envelope"></i></span>
+            <span class="">Contact</span>
           </a>
           </div>
         </div>
       </nav>
-<!--
-      <nav class="level">
-        <p class="level-item has-text-centered">
-          <span class="logo">#MeToo Hack</span>
-        </p>
-        <p class="level-item has-text-centered">
-          <a>
-            <span class="icon">
-              <i class="fa fa-calendar"></i>
-            </span>
-            <span>Events</span>
-          </a>
-        </p>
-        <p class="level-item has-text-centered">
-          <a class="is-info">
-            <span class="icon">
-              <i class="fa fa-lightbulb-o"></i>
-            </span>
-            <span>Ideas</span>
-          </a>
-        </p>
-        <p class="level-item has-text-centered">
-          <a>
-            <span class="icon">
-              <i class="fa fa-question"></i>
-            </span>
-            <span>FAQ</span>
-          </a>
-        </p>
-        <p class="level-item has-text-centered">
-          <a>
-            <span class="icon">
-              <i class="fa fa-newspaper-o"></i>
-            </span>
-            <span>Press</span>
-          </a>
-        </p>
-      </nav>
-      -->
     </div>
   </header>
 </template>
@@ -80,19 +45,19 @@
 import Vue from 'vue';
 
 export default {
+  data: () => ({
+    dropdownVisible: false,
+  }),
   props: {
     selector: String,
   },
   methods: {
-    navToggle: function(event) {
-      // Get the target from the "data-target" attribute
-      var $button = event.target;
-      var target = $button.dataset.target;
-      var $target = document.getElementById(target);
-
-      // Toggle the class on both the "navbar-burger" and the "navbar-menu"
-      $button.classList.toggle('is-active');
-      $target.classList.toggle('is-active');
+    onClick(selector) {
+      document.querySelector(selector).scrollIntoView({
+        block: 'start',
+        behavior: 'smooth'
+      });
+      this.dropdownVisible = false;
     },
   },
 }
@@ -149,7 +114,6 @@ a {
 }
 
 @media screen and (min-width: 768px) {
-
   .nav {
     align-items: stretch;
     display: flex;
@@ -190,6 +154,4 @@ a {
     text-align: center;
   }
 }
-
-
 </style>
