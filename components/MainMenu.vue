@@ -3,9 +3,9 @@
     <div class="container">
       <nav class="nav" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-          <a class="navbar-item" href="/">
+          <nuxt-link to="/" class="navbar-item">
             <span class="logo">#MeToo Hack</span>
-          </a>
+          </nuxt-link>
           <button class="button navbar-burger" v-on:click="dropdownVisible = !dropdownVisible">
             <span></span>
             <span></span>
@@ -17,10 +17,10 @@
           <div class="navbar-start">
           </div>
           <div class="navbar-end">
-          <a v-on:click="onClick('.section.ideas')" class="navbar-item">
+          <nuxt-link to="/ideas" class="navbar-item">
             <span class="icon"><i class="fa fa-lightbulb-o"></i></span>
             <span class="">Ideas</span>
-          </a>
+          </nuxt-link>
           <a v-on:click="onClick('.section.faq')" class="navbar-item">
             <span class="icon"><i class="fa fa-question"></i></span>
             <span class="">More info</span>
