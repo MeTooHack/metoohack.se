@@ -27,7 +27,7 @@ module.exports = {
       { property:'og:type', content:'website' },
       { property:'og:title', content:'#MeToo Hack - Göteborg 3 Feb' },
       { property:'og:description', content:'Shaken (and deeply frustrated) by the #MeToo movement, as digital creators we have decided to join forces and take action. In a one day hack 10 teams will prototype creative solutions to the underlying problems shown by #MeToo.' },
-      { property:'og:image', content:'https://metoohack.se/img/og_image_wide.png' },
+      { property:'og:image', content:'https://metoohack.se/img/og_image_wide.jpg' },
       { property:'og:url', content:'https://metoohack.se/' }
     ],
     link: [
