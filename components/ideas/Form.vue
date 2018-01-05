@@ -1,26 +1,28 @@
 <template>
   <form v-on:submit.prevent="onSubmit">
-    <input name="honeypot" v-model="honeypot" class="is-hidden" />
+    <div v-if="!isSuccess">
+      <input name="honeypot" v-model="honeypot" class="is-hidden" />
 
-    <idea-input name="title" v-validate="'required'" placeholder="Your idea title" v-model="title" icon="fa-lightbulb-o" />
-    <idea-input name="sender" v-validate="'required'" placeholder="E.g. your name or organization" v-model="sender" icon="fa-paper-plane" />
-    <idea-input name="email" v-validate="'required|email'" placeholder="Email address to get in touch with you" v-model="email" icon="fa-envelope" />
+      <idea-input name="title" v-validate="'required'" placeholder="Your idea title" v-model="title" icon="fa-lightbulb-o" />
+      <idea-input name="sender" v-validate="'required'" placeholder="E.g. your name or organization" v-model="sender" icon="fa-paper-plane" />
+      <idea-input name="email" v-validate="'required|email'" placeholder="Email address to get in touch with you" v-model="email" icon="fa-envelope" />
 
-    <div class="field">
-      <label class="label">Description</label>
-      <div class="control">
-        <textarea name="description" :class="{'textarea': true, 'is-danger': errors.has('description') }" v-model="description" v-validate="'required'" placeholder="A brief description of the idea"></textarea>
+      <div class="field">
+        <label class="label">Description</label>
+        <div class="control">
+          <textarea name="description" :class="{'textarea': true, 'is-danger': errors.has('description') }" v-model="description" v-validate="'required'" placeholder="A brief description of the idea"></textarea>
+        </div>
+        <span v-show="errors.has('description')" class="help is-danger">{{ errors.first('description') }}</span>
       </div>
-      <span v-show="errors.has('description')" class="help is-danger">{{ errors.first('description') }}</span>
-    </div>
-    <div class="field">
-      <div class="control">
-        <label class="checkbox">
-          <input type="checkbox" name="consent" v-validate="'required'">
-          I allow that the idea is published publicly
-        </label>
+      <div class="field">
+        <div class="control">
+          <label class="checkbox">
+            <input type="checkbox" name="consent" v-validate="'required'">
+            I allow that the idea is published publicly
+          </label>
+        </div>
+        <span v-show="errors.has('consent')" class="help is-danger">{{ errors.first('consent') }}</span>
       </div>
-      <span v-show="errors.has('consent')" class="help is-danger">{{ errors.first('consent') }}</span>
     </div>
     <article class="message is-success" :class="{ 'is-hidden': !isSuccess }">
       <div class="message-body">Thank you, your idea has been submitted for review!</div>

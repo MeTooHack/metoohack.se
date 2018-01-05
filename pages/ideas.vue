@@ -1,20 +1,23 @@
 <template>
   <section class="section ideas is-medium">
     <div class="container">
-      <h1 class="title">Idea bank</h1>
-      <div class="masonry">
-        <div class="masonry-brick new-idea" v-on:click="modalOpen = true">
+      <h1 class="title" ref="title">Idea bank</h1>
+      <masonry
+        :cols="{default: 3, 768: 2, 450: 1}"
+        :gutter="{default: '30px', 768: '15px'}"
+        >
+        <div class="idea new-idea" v-on:click="modalOpen = true">
           <span class="icon">
             <i class="fa fa-plus"></i>
           </span>
           <span>Submit idea!</span>
         </div>
-        <div class="masonry-brick" v-for="(idea, index) in ideas">
-          <p class="title">{{ idea.title }}</p>
-          <p class="subtitle">By: {{ idea.author }}</p>
-          <nuxtent-body class="masonry-content" :body="idea.body" />
+        <div v-for="(idea, index) in ideas" :key="index" class="idea">
+            <p class="title">{{ idea.title }}</p>
+            <p class="subtitle">By: {{ idea.author }}</p>
+            <div v-html="idea.body"></div>
         </div>
-      </div>
+      </masonry>
       <div class="modal" :class="{'is-active': modalOpen}">
         <div class="modal-background"></div>
         <div class="modal-card">
@@ -33,7 +36,11 @@
 </template>
 
 <script>
+import Vue from 'vue'
+import VueMasonry from 'vue-masonry-css'
 import IdeasForm from '../components/ideas/Form.vue';
+
+Vue.use(VueMasonry);
 
 export default {
   components: { IdeasForm },
@@ -47,37 +54,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.columns {
-  margin-bottom: 3em;
-}
-
-.masonry {
-  display: flex;
-  flex-flow: row wrap;
-  margin-left: -8px; /* Adjustment for the gutter */
-}
-
-.masonry-brick {
-  flex: auto;
-  min-width: 150px;
-  margin: 0 8px 8px 0; /* Some gutter */
+.idea {
   padding: 1em;
   background-color: #fff;
   box-shadow: 1px 1px 7px rgba(0,0,0,0.5);
   text-align: left;
-
-  &:nth-child(4n+1){
-     width: 250px;
-  }
-  &:nth-child(4n+2){
-     width: 325px;
-  }
-  &:nth-child(4n+3){
-     width: 180px;
-  }
-  &:nth-child(4n+4){
-     width: 380px;
-  }
+  margin-bottom: 2em;
 
   &.new-idea {
     display: flex;
@@ -91,7 +73,6 @@ export default {
     &:hover {
       background-color: lighten(#6f5b8f, 10%);
     }
-}
-
+  }
 }
 </style>

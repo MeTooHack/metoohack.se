@@ -16,7 +16,7 @@
     "nuxtent": "^1.2.2",
     "qs": "^6.5.1",
     "vee-validate": "^2.0.0-rc.27",
-    "vue-masonry": "^0.10.16"
+    "vue-masonry-css": "^1.0.1"
   },
   "devDependencies": {
     "node-sass": "^4.7.2",
