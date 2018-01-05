@@ -109,3 +109,9 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+.button {
+  margin: 2rem 0;
+}
+</style>
