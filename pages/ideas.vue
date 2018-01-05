@@ -1,19 +1,31 @@
 <template>
   <section class="section ideas is-medium">
     <div class="container">
-      <h1 class="title">Submit an idea!</h1>
-      <div class="columns is-centered">
-        <div class="column is-5">
-          <p>Probably the biggest challenge of #MeToo Hack is to frame problems, pursue ideas and generate solutions that can really make a difference. Here we need your help! And in the spirit of collaboration (and open source) we will make the ideas publicly available.</p>
-          <ideas-form />
-        </div>
-      </div>
       <h1 class="title">Idea bank</h1>
       <div class="masonry">
+        <div class="masonry-brick new-idea" v-on:click="modalOpen = true">
+          <span class="icon">
+            <i class="fa fa-plus"></i>
+          </span>
+          <span>Submit idea!</span>
+        </div>
         <div class="masonry-brick" v-for="(idea, index) in ideas">
           <p class="title">{{ idea.title }}</p>
           <p class="subtitle">By: {{ idea.author }}</p>
           <nuxtent-body class="masonry-content" :body="idea.body" />
+        </div>
+      </div>
+      <div class="modal" :class="{'is-active': modalOpen}">
+        <div class="modal-background"></div>
+        <div class="modal-card">
+          <header class="modal-card-head">
+            <h2 class="modal-card-title">Submit an idea!</h2>
+            <button class="delete" aria-label="close" v-on:click="modalOpen = false"></button>
+          </header>
+          <section class="modal-card-body">
+              <p>Probably the biggest challenge of #MeToo Hack is to frame problems, pursue ideas and generate solutions that can really make a difference. Here we need your help! And in the spirit of collaboration (and open source) we will make the ideas publicly available.</p>
+              <ideas-form />
+          </section>
         </div>
       </div>
     </div>
@@ -28,6 +40,9 @@ export default {
   computed: {
     ideas () { return this.$store.state.ideas }
   },
+  data: () => ({
+    modalOpen: false,
+  }),
 }
 </script>
 
@@ -63,5 +78,20 @@ export default {
   &:nth-child(4n+4){
      width: 380px;
   }
+
+  &.new-idea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #6f5b8f;
+    color: #fff;
+
+    &:hover {
+      background-color: lighten(#6f5b8f, 10%);
+    }
+}
+
 }
 </style>
