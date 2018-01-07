@@ -5,7 +5,7 @@
       <div class="columns is-centered">
         <div class="column is-3"><a href="https://www.recordedfuture.com/" target="_blank"><img src="~/assets/img/recorded_future.svg" alt="Recorded Future" /></a></div>
         <div class="column is-3 is-offset-1"><a href="https://www.footballaddicts.com/" target="_blank"><img src="~/assets/img/forza.png" alt="Forza Football" /></a></div>
-        <div class="column is-3 is-offset-1"><a href="https://skyltmax.se/" target="_blank"><img src="~/assets/img/skyltmax_se.svg" alt="Skyltmax" width="100%" /></a></div>
+        <div class="column is-3 is-offset-1"><a href="https://skyltmax.se/" target="_blank"><img src="~/assets/img/skyltmax_se.svg" alt="Skyltmax" style="width: 100%" /></a></div>
       </div>
       <div class="columns is-centered">
         <div class="column is-3"><a href="https://evolvetechnology.se" target="_blank"><img src="~/assets/img/evolve.svg" class="sponsor-image" alt="Evolve Technology" /></a></div>
