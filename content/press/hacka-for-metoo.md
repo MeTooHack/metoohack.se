@@ -6,7 +6,7 @@ date: 2018-01-08T08:00:00Z
 
 Den 3:e februari samlas runt 100 frivilliga programmerare, designers och andra professioner såsom jurister, socionomer, psykologer och genusvetare för att åstadkomma relevanta digitala produkter i svallvågorna efter MeToo-rörelsen.
 
-Arbetet med att samla idéer pågår just nu för fullt, och allt publiceras öppet på hemsidan för vem som helst att arbeta vidare på. Att låta företag ta tempen på sin organisation gällande sexuella trakasserier eller övergrepp genom ett anonymt test på nätet, skapa en guide i att »Ragga med Respekt« eller få hjälp att utveckla en jämställdhetsplan online är några av förslagen som redan kommit in. Som förberedelse för hacket anordnas även ett även ett uppstartsmöte med syftet att bolla idéer samt träffa experterna som kommer följa grupperna genom hela processen.
+Arbetet med att samla idéer pågår just nu för fullt, och allt publiceras öppet på hemsidan för vem som helst att arbeta vidare på. Att låta företag ta tempen på sin organisation gällande sexuella trakasserier eller övergrepp genom ett anonymt test på nätet, skapa en guide i att »Ragga med Respekt« eller få hjälp att utveckla en jämställdhetsplan online är några av förslagen som redan kommit in. Som förberedelse för hacket anordnas även ett uppstartsmöte med syftet att bolla idéer samt träffa experterna som kommer följa grupperna genom hela processen.
 
 *Nu söker vi din hjälp! Du som kan vara med och stötta oss i vårt arbete via inspiration, idéförslag, sponsring – eller om vill du vara med och hjälpa till på plats. Tveka inte att höra av dig och lägg gärna upp din idé på vår hemsida!
 Läs mer på www.metoohack.se*
