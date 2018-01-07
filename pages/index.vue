@@ -33,18 +33,6 @@
         </div>
     </section>
 
-    <section class="section ideas is-medium">
-      <div class="container">
-        <h1 class="title">Submit an idea!</h1>
-        <div class="columns is-centered">
-          <div class="column is-5">
-            <p>Probably the biggest challenge of #MeToo Hack is to frame problems, pursue ideas and generate solutions that can really make a difference. Here we need your help! And in the spirit of collaboration (and open source) we will make the ideas publicly available.</p>
-            <ideas-form />
-          </div>
-        </div>
-      </div>
-    </section>
-
     <section class="section faq is-medium">
         <div class="container">
             <h1 class="title">Questions &amp; Answers</h1>

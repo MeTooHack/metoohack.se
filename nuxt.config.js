@@ -14,6 +14,7 @@ module.exports = {
     { src: '~/assets/styles/main.scss', lang: 'scss' }
   ],
   modules: [
+    'nuxtent',
     ['@nuxtjs/google-analytics', {
       id: 'UA-110410768-2'
     }]
