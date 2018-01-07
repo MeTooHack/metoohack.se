@@ -21,18 +21,14 @@
             <span class="icon"><i class="fa fa-lightbulb-o"></i></span>
             <span class="">Ideas</span>
           </nuxt-link>
-          <a v-on:click="onClick('.section.faq')" class="navbar-item">
-            <span class="icon"><i class="fa fa-question"></i></span>
-            <span class="">More info</span>
-          </a>
-          <a v-on:click="onClick('.section.registration')" class="navbar-item">
-            <span class="icon"><i class="fa fa-user-plus"></i></span>
-            <span class="">Registration</span>
-          </a>
-          <a v-on:click="onClick('.section.contact')" class="navbar-item">
+          <nuxt-link to="/press" class="navbar-item">
+            <span class="icon"><i class="fa fa-newspaper-o"></i></span>
+            <span class="">Press</span>
+          </nuxt-link>
+          <nuxt-link to="/contact" class="navbar-item">
             <span class="icon"><i class="fa fa-envelope"></i></span>
             <span class="">Contact</span>
-          </a>
+          </nuxt-link>
           </div>
         </div>
       </nav>

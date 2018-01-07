@@ -35,3 +35,13 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+.help {
+  text-align: left;
+}
+.label {
+  color: #333;
+  text-align: left;
+}
+</style>
