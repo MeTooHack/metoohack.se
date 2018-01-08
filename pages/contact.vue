@@ -14,6 +14,7 @@
           <li>Elin Klemetz</li>
           <li>Ninni Carlsson</li>
           <li>Anna Thomasson</li>
+          <li>Carl Leskinen</li>
         </ul>
       </p>
       <p>To get in touch with us, please drop an email to <a href="mailto:staff@metoohack.se">staff@metoohack.se</a></p>
