@@ -4,7 +4,8 @@
       <nav class="nav" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
           <nuxt-link to="/" class="navbar-item">
-            <span class="logo">#MeToo Hack</span>
+            <img src="~/assets/img/metoohack-icon-pos.svg" />
+            <span class="logo">MeToo Hack <span>2018</span></span>
           </nuxt-link>
           <button class="button navbar-burger" v-on:click="dropdownVisible = !dropdownVisible">
             <span></span>
@@ -100,10 +101,18 @@ export default {
   z-index: 2;
 }
 .logo {
-  font-family: 'Permanent Marker', cursive;
-  font-size: 1.5rem;
+  font-family: 'Quicksand', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: 700;
   color: #fff;
   text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+}
+.logo > * {
+  font-weight: 400;
+}
+img {
+  margin-right: 5px;
 }
 a {
   text-decoration: none;

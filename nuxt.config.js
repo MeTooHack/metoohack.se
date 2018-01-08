@@ -32,7 +32,7 @@ module.exports = {
       { property:'og:url', content:'https://metoohack.se/' }
     ],
     link: [
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Lato:300,400|Permanent+Marker' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Lato:300,400|Quicksand:400,700' },
       { rel: 'icon', href: '/favicon_16.png', type:'image/png', sizes:'16x16' },
       { rel: 'icon', href: '/favicon_32.png', type:'image/png', sizes:'32x32' },
     ]
