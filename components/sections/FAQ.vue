@@ -3,7 +3,7 @@
     <div class="container">
       <h1 class="title">Questions &amp; Answers</h1>
       <h3>What is the "#MeToo movement"?</h3>
-      <p class="answer">The hashtag #MeToo has shaken our society showing that systematic sexual harassments and assaults are everywhere. Subsequent movements like #deadline, #tystnadtagning, #medvilkenrätt, #teknisktfel (and many more) shows that it's present in almost every part of our society.</p>
+      <p class="answer">The hashtag #MeToo has shaken our society showing that systematic sexual harassments and assaults are everywhere. Subsequent movements like #allavi, #bortabramenhemmavärst, #deadline, #tystnadtagning, #medvilkenrätt, #teknisktfel (and many more) shows that it's present in almost every part of our society.</p>
       <h3>What is #MeToo Hack?</h3>
       <p class="answer">A one day event where teams of people prototypes, builds and ideates around digital products that in some way could make a difference in the area of sexual abuse and harassment and overall sexual integrity.</p>
       <h3>Isn't hacking illegal?</h3>
