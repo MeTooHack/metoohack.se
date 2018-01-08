@@ -114,4 +114,7 @@ export default {
 .button {
   margin: 2rem 0;
 }
+.help, .label {
+  text-align: left;
+}
 </style>

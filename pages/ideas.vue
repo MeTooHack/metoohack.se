@@ -1,5 +1,5 @@
 <template>
-  <section class="section ideas is-medium">
+  <section class="section hero is-fullheight is-medium">
     <div class="container">
       <h1 class="title" ref="title">Idea bank</h1>
       <masonry
@@ -54,6 +54,19 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.section {
+  background-color: #E5E6EA;
+  color: #333;
+
+  h1.title {
+    color: #333;
+    text-shadow: none;
+  }
+
+  a {
+    color: #333;
+  }
+}
 .idea {
   padding: 1em;
   background-color: #fff;
@@ -74,5 +87,8 @@ export default {
       background-color: lighten(#6f5b8f, 10%);
     }
   }
+}
+.modal-card-body p {
+  margin: 0 auto 2rem;
 }
 </style>
