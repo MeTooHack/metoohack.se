@@ -4,8 +4,8 @@
       <nav class="nav" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
           <nuxt-link to="/" class="navbar-item">
-            <img src="~/assets/img/metoohack-icon-pos.svg" />
-            <span class="logo">MeToo Hack <span>2018</span></span>
+            <img class="logo" src="~/assets/img/metoohack-single-neg.svg" />
+            <span class="logo-text">Hack / 2018</span></span>
           </nuxt-link>
           <button class="button navbar-burger" v-on:click="dropdownVisible = !dropdownVisible">
             <span></span>
@@ -101,24 +101,35 @@ export default {
   z-index: 2;
 }
 .logo {
+  margin-right: 6px;
+  max-height: 1.2rem;
+  margin-top: 1px;
+}
+.logo-text {
   font-family: 'Quicksand', sans-serif;
   text-transform: uppercase;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 700;
   color: #fff;
   text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
 }
-.logo > * {
-  font-weight: 400;
-}
-img {
-  margin-right: 5px;
-}
+
 a {
   text-decoration: none;
 }
 
 @media screen and (min-width: 768px) {
+
+  .logo {
+    margin-right: 10px;
+    max-height: 1.3rem;
+    margin-top: 2px;
+  }
+  .logo-text {
+    font-size: 1.1rem;
+  }
+
+
   .nav {
     align-items: stretch;
     display: flex;
