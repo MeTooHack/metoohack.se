@@ -28,8 +28,8 @@
           </a>
         </div>
         <div class="column is-4">
-          <a href="/img/press/metoo_hack_staff_2.jpg" class="download">
-            <img src="~/assets/img/press/metoo_hack_staff_2.jpg" />
+          <a href="/img/press/metoo_hack_staff_4.jpg" class="download">
+            <img src="~/assets/img/press/metoo_hack_staff_4.jpg" />
             <span class="is-overlay">
               <span>
                 <span class="icon">
@@ -58,6 +58,20 @@
         </div>
       </div>
       <div class="columns is-centered">
+        <div class="column is-4">
+          <a href="/img/press/metoo_hack_staff_2.jpg" class="download">
+            <img src="~/assets/img/press/metoo_hack_staff_2.jpg" />
+            <span class="is-overlay">
+              <span>
+                <span class="icon">
+                  <i class="fa fa-download"></i>
+                </span>
+                <span>Click for high-res happiness</span>
+              </span>
+              <small>Image credits <a href="http://www.stinagranfors.se/" target="_blank">Stina Gränfors</a></small>
+            </span>
+          </a>
+        </div>
         <div class="column is-4">
           <a href="/img/press/rebecka_gustin.jpg" class="download">
             <img src="~/assets/img/press/rebecka_gustin.jpg" />
