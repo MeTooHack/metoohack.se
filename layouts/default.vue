@@ -14,8 +14,11 @@ export default {
 </script>
 
 <style lang="scss">
+
+@import './assets/styles/main.scss';
+
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: $secondary-font;
   font-size: 18px;
   text-align: center;
 }
@@ -24,8 +27,12 @@ body {
   padding-top: 5rem;
 }
 
+.title {
+  font-family: $primary-font;
+}
+
 h1.title {
-  font-family: 'Permanent Marker', cursive;
+  font-family: $brand-font;
   font-size: 3rem;
   color: #fff;
   text-shadow: 1px 1px 4px rgba(0,0,0,0.5);

@@ -76,15 +76,24 @@ export default {
 
   &.new-idea {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    background-color: #6f5b8f;
+    background-color: #8625AA;
     color: #fff;
 
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-family: Quicksand, sans-serif;
+
+    .icon {
+      margin-top: 3px;
+    }
+
     &:hover {
-      background-color: lighten(#6f5b8f, 10%);
+      background-color: lighten(#8625AA, 10%);
     }
   }
 }

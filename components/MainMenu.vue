@@ -111,7 +111,6 @@ export default {
   font-size: 1rem;
   font-weight: 700;
   color: #fff;
-  text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
 }
 
 a {
