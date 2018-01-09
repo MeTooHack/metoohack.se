@@ -68,7 +68,7 @@ export default {
 
 <style lang="scss" scoped>
 .section.hero {
-  background: #000 url(~/assets/img/bg_tall.jpg) no-repeat top center;
+  background: #000 url(~/assets/img/metoo-website-bg.jpg) no-repeat top center;
   background-size: 300% auto;
   display: flex;
   justify-content: space-evenly;
