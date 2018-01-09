@@ -69,7 +69,6 @@ export default {
   max-height: 1px;
   overflow: hidden;
   transition: 250ms all ease-out;
-  padding-bottom: 0.5em;
 }
 .nav-menu.is-active {
   max-height: 500px;
@@ -97,7 +96,7 @@ export default {
   position: fixed;
   left: 0;
   right: 0;
-  background-color: rgba(0,0,0,0.7);
+  background-color: #8625AA;
   z-index: 2;
 }
 .logo {
