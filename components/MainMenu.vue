@@ -4,7 +4,8 @@
       <nav class="nav" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
           <nuxt-link to="/" class="navbar-item">
-            <span class="logo">#MeToo Hack</span>
+            <img class="logo" src="~/assets/img/metoohack-single-neg.svg" />
+            <span class="logo-text">Hack / 2018</span></span>
           </nuxt-link>
           <button class="button navbar-burger" v-on:click="dropdownVisible = !dropdownVisible">
             <span></span>
@@ -68,7 +69,6 @@ export default {
   max-height: 1px;
   overflow: hidden;
   transition: 250ms all ease-out;
-  padding-bottom: 0.5em;
 }
 .nav-menu.is-active {
   max-height: 500px;
@@ -96,20 +96,38 @@ export default {
   position: fixed;
   left: 0;
   right: 0;
-  background-color: rgba(0,0,0,0.7);
+  background-color: #8625AA;
   z-index: 2;
 }
 .logo {
-  font-family: 'Permanent Marker', cursive;
-  font-size: 1.5rem;
-  color: #fff;
-  text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+  margin-right: 6px;
+  max-height: 1.2rem;
+  margin-top: 1px;
 }
+.logo-text {
+  font-family: 'Quicksand', sans-serif;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+}
+
 a {
   text-decoration: none;
 }
 
 @media screen and (min-width: 768px) {
+
+  .logo {
+    margin-right: 10px;
+    max-height: 1.3rem;
+    margin-top: 2px;
+  }
+  .logo-text {
+    font-size: 1.1rem;
+  }
+
+
   .nav {
     align-items: stretch;
     display: flex;

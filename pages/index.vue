@@ -2,7 +2,7 @@
   <main>
     <section class="section hero is-fullheight">
         <p class="hero-title">
-          <span class="hero-logo">#MeToo Hack</span>
+          <img src="~/assets/img/metoohack-neg.svg" />
         </p>
         <div class="level">
             <div class="level-item has-text-centered">
