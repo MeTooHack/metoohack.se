@@ -20,7 +20,7 @@
             <div class="level-item has-text-centered">
                 <div>
                     <div class="usp-title">Venue</div>
-                    <div class="usp-content">Spotify Office</div>
+                    <div class="usp-content">Vallgatan 22</div>
                 </div>
             </div>
         </div>
