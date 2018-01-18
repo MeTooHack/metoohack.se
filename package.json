@@ -10,12 +10,12 @@
     "@nuxtjs/axios": "^4.5.2",
     "@nuxtjs/google-analytics": "^2.0.2",
     "axios": "^0.17.1",
-    "bulma": "^0.6.1",
+    "bulma": "^0.6.2",
     "font-awesome": "^4.7.0",
-    "nuxt": "^1.0.0-rc11",
+    "nuxt": "1.0.0-rc11",
     "nuxtent": "^1.2.2",
     "qs": "^6.5.1",
-    "vee-validate": "^2.0.0-rc.27",
+    "vee-validate": "^2.0.3",
     "vue-masonry-css": "^1.0.1"
   },
   "devDependencies": {
