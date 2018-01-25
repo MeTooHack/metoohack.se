@@ -15,7 +15,7 @@
         <div v-for="(idea, index) in ideas" :key="index" class="idea">
             <p class="title">{{ idea.title }}</p>
             <p class="subtitle">By: {{ idea.author }}</p>
-            <div v-html="idea.body"></div>
+            <div class="content" v-html="idea.body"></div>
         </div>
       </masonry>
       <div class="modal" :class="{'is-active': modalOpen}">
