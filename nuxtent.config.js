@@ -10,6 +10,15 @@ module.exports = {
       }
     ],
     [
+      'coaches',
+      {
+        page: '/coaches/_slug',
+        permalink: '/coaches/:slug',
+        isPost: false,
+        generate: ['get', 'getAll']
+      }
+    ],
+    [
       'press',
       {
         page: '/press/_slug',

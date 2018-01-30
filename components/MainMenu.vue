@@ -22,6 +22,10 @@
             <span class="icon"><i class="fa fa-lightbulb-o"></i></span>
             <span class="">Ideas</span>
           </nuxt-link>
+          <nuxt-link to="/coaches" class="navbar-item">
+            <span class="icon"><i class="fa fa-user-o"></i></span>
+            <span class="">Coaches</span>
+          </nuxt-link>
           <nuxt-link to="/press" class="navbar-item">
             <span class="icon"><i class="fa fa-newspaper-o"></i></span>
             <span class="">Press</span>
