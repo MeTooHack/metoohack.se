@@ -9,6 +9,7 @@
       <div class="columns is-centered">
         <div class="column is-2"><a href="https://www.stendahls.se/" target="_blank"><img src="~/assets/img/stendahls.png" alt="Stendahls" /></a></div>
         <div class="column is-2 is-offset-2"><a href="http://www.chalmersventures.com/" target="_blank"><img src="~/assets/img/ChalmersVentures_logo_White_webb.png" alt="Chalmers Ventures" /></a></div>
+        <div class="column is-2 is-offset-2"><a href="http://www.stockholmmediafactory.se/" target="_blank"><img src="~/assets/img/SMF_Logo_CMYK.png" alt="Stockholm Media Factory" style="max-width: 90px" /></a></div>
       </div>
     </div>
   </section>
