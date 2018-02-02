@@ -14,8 +14,9 @@
       <hr />
       <div class="columns is-centered">
         <div class="column is-2"><a href="https://www.stendahls.se/" target="_blank"><img src="~/assets/img/stendahls.png" alt="Stendahls" style="max-width: 150px;" /></a></div>
-        <div class="column is-2 is-offset-2"><a href="http://www.stockholmmediafactory.se/" target="_blank"><img src="~/assets/img/SMF_Logo_CMYK.png" alt="Stockholm Media Factory" style="max-width: 90px" /></a></div>
-        <div class="column is-2 is-offset-2"><a href="https://www.ahlbo.se/" target="_blank"><img src="~/assets/img/ahlbo.png" alt="Ahlbo Extenso" style="max-width: 150px;"/></a></div>
+        <div class="column is-2 is-offset-1"><a href="http://www.stockholmmediafactory.se/" target="_blank"><img src="~/assets/img/SMF_Logo_CMYK.png" alt="Stockholm Media Factory" style="max-width: 90px" /></a></div>
+        <div class="column is-2 is-offset-1"><a href="https://www.ahlbo.se/" target="_blank"><img src="~/assets/img/ahlbo.png" alt="Ahlbo Extenso" style="max-width: 150px;"/></a></div>
+        <div class="column is-2 is-offset-1"><a href="https://www.nordish.se/" target="_blank"><img src="~/assets/img/nordish.png" alt="Nordish" style="filter: invert(1); max-width: 150px;"/></a></div>
       </div>
       <p>Interested in sponsoring #MeToo Hack? Contact us by email: <a href="mailto:spons@metoohack.se">spons@metoohack.se</a>.</p>
       <p>Also consider "donating" an idea at the <nuxt-link to="/ideas">ideas page</nuxt-link>!</p>
