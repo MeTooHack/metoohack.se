@@ -1,5 +1,5 @@
 ---
-name: 'Nobias'
+name: 'NoBias'
 image: '/img/showcase/nobias.png'
 links:
   GitHub: 'https://github.com/MeTooHack/Team17'

@@ -1,5 +1,6 @@
 ---
-name: 'Impact - making it easier to react'
+name: 'Impact'
+tagline: 'making it easier to react'
 image: '/img/showcase/impact.png'
 links:
   GitHub: 'https://github.com/MeTooHack/Team15'

@@ -2,6 +2,7 @@
   <section class="section hero is-fullheight is-medium">
     <div class="container">
       <h1 class="title" ref="title">Showcase</h1>
+      <p class="intro">We're proud to present the ideas and prototypes from #MeToo Hack, Feb 3rd 2018 where 16 teams got together for a full day event, rapidly ideating and prototyping ditigal solutions preventing sexual harassment and abuse!</p>
       <div class="columns" v-for="projects in chunkedProjects">
         <div class="column is-4" v-for="project in projects">
           <div class="card">
@@ -54,5 +55,9 @@ export default {
 .image {
   max-height: 250px;
   overflow: hidden;
+}
+.intro {
+  max-width: 500px;
+  margin: 0 auto 2em;
 }
 </style>
