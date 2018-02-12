@@ -18,21 +18,25 @@
           <div class="navbar-start">
           </div>
           <div class="navbar-end">
+          <nuxt-link to="/showcase" class="navbar-item">
+            <span class="icon"><i class="fa fa-star"></i></span>
+            <span>Showcase</span>
+          </nuxt-link>
           <nuxt-link to="/ideas" class="navbar-item">
             <span class="icon"><i class="fa fa-lightbulb-o"></i></span>
-            <span class="">Ideas</span>
+            <span>Ideas</span>
           </nuxt-link>
           <nuxt-link to="/coaches" class="navbar-item">
             <span class="icon"><i class="fa fa-user-o"></i></span>
-            <span class="">Coaches</span>
+            <span>Coaches</span>
           </nuxt-link>
           <nuxt-link to="/press" class="navbar-item">
             <span class="icon"><i class="fa fa-newspaper-o"></i></span>
-            <span class="">Press</span>
+            <span>Press</span>
           </nuxt-link>
           <nuxt-link to="/contact" class="navbar-item">
             <span class="icon"><i class="fa fa-envelope"></i></span>
-            <span class="">Contact</span>
+            <span>Contact</span>
           </nuxt-link>
           </div>
         </div>

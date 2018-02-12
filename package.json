@@ -11,6 +11,7 @@
     "@nuxtjs/google-analytics": "^2.0.2",
     "axios": "^0.17.1",
     "bulma": "^0.6.2",
+    "chunk": "0.0.2",
     "font-awesome": "^4.7.0",
     "nuxt": "1.0.0-rc11",
     "nuxtent": "^1.2.2",

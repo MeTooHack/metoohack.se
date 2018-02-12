@@ -26,6 +26,15 @@ module.exports = {
         isPost: false,
         generate: ['get', 'getAll']
       }
+    ],
+    [
+      'showcase',
+      {
+        page: '/showcase/_slug',
+        permalink: '/showcase/:slug',
+        isPost: false,
+        generate: ['get', 'getAll']
+      }
     ]
   ]
 }
